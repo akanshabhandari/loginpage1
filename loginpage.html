@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    
+    <title></title>
+    <style>
+    body{ height:100%;
+        font-family:Fixedsys;
+        
+    }
+    *{
+    box-sizing:border-box;
+    }
+    h2{
+        font-size:30;
+        padding:40px;
+       
+        color:white;
+        font-family:Sitka Subheading;
+    }
+    .container{
+        background-image:url("https://img.freepik.com/free-vector/colorful-restaurant-mural-wallpaper_23-2148682357.jpg?size=626&ext=jpg&uid=R29403883&ga=GA1.2.1797722105.1605977688");
+        height: 880px;
+        top:100;
+        background-size:cover;
+        background-attachment:fixed;
+        text-color:green;
+        padding:20px;
+    }
+    
+
+    
+    .log{
+        background-color: darkred;
+        height:80px;
+      
+        text-align:center;
+    }
+    form
+    {  align-items:center;
+    top:30%;
+    left:40%;
+    right:70%;
+    bottom:40%;
+    text-align:center;
+        text-color: grey;
+        position: absolute;
+        margin:20px;
+        max-width:400px;
+        padding:30px;
+        width:200;
+    }
+    
+    .D{ 
+        vertical-align:center;
+        height:100;
+        width:230;
+    }
+        
+    input[type=text],input[type=password]
+    {
+        width:110;
+        padding:15px;
+        margin:15px 0px;
+        border:2px solid green;
+    }
+    .button{
+       width:110;
+        background-color:grey;
+        color:white;
+        padding:16px 16px;
+        border: none;
+        cursor:pointer;
+        width:100%;
+    }
+    </style>
+</head>
+<body>
+
+  
+    <div class="container">
+    <div class="log">
+    <h2><u>LOgiN FoRm</u></h2> <br>
+    </div>
+
+      <form>
+
+    <fieldset>
+    <legent>login details</legent><br><br>
+    
+   
+    <input type="text" placeholder="username"  name="uname"  required><br>
+    
+    <input type="password" placeholder="password"  name="pswrd"  required><br>
+   
+     <input type="checkbox" > Remember me <br>
+     <button type="submit" class="button">Login</button> <br><br>
+        
+        
+            <button type="button" class="cancelbtn">Cancel</button><br> <br>
+            <span class="psw"><a href="#">Forgot password?</a></span> 
+            </fieldset>
+       
+    </form> 
+   
+    </div>
+
+</body>
+</html>
